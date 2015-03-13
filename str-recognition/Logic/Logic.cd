@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="str_recognition.Logic.RImage">
+    <Position X="3.5" Y="10" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgBAAAAABAAAAAQACAAAAEACAABAABAAABAAgAAIAiA=</HashCode>
+      <FileName>Logic\RImage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Data" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="str_recognition.Logic.RColumn">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAQACAAAAAAAAAAAABAAABAAAAAAAjA=</HashCode>
+      <FileName>Logic\RImage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="str_recognition.Logic.SamplesLibrary&lt;TSample&gt;">
+    <Position X="0.5" Y="2.75" Width="2.75" />
+    <NestedTypes>
+      <Class Name="str_recognition.Logic.SamplesLibrary&lt;TSample&gt;.SampleWithTag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Logic\SamplesLibrary.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAAQAAAAAAAACAABAAgAAAAAAgIAAAAA=</HashCode>
+      <FileName>Logic\SamplesLibrary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="str_recognition.Logic.Sample">
+    <Position X="4" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAEAAAAAAAAAIAAABA=</HashCode>
+      <FileName>Logic\Sample.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="str_recognition.Logic.QuadraticSample">
+    <Position X="5.75" Y="6.5" Width="2.5" />
+    <InheritanceLine Type="str_recognition.Logic.Sample" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="5.584" />
+        <Point X="5.25" Y="8" />
+        <Point X="5.75" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQACAAAAAACAABEABAAAAAAgAAAAAA=</HashCode>
+      <FileName>Logic\Sample.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Data" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="str_recognition.Logic.LinearSample">
+    <Position X="3.25" Y="6.5" Width="1.75" />
+    <InheritanceLine Type="str_recognition.Logic.Sample" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="5.584" />
+        <Point X="5.25" Y="8.003" />
+        <Point X="5" Y="8.003" />
+        <Point X="5" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="DataA" Type="str_recognition.Logic.RColumn" FixedToPoint="true">
+      <Path>
+        <Point X="3.25" Y="8.375" />
+        <Point X="2.5" Y="8.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAQCCAAAAAACAABEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Logic\Sample.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="DataA" />
+      <Field Name="DataB" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

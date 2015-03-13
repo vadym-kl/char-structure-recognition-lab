@@ -1,0 +1,13 @@
+﻿Interface facilities:
+
+1. Create an editor for sample libraries.
+Features: Adds,Edits,Removes samples, Changes associated sign,
+works with both Quadratic and Linear samples
+Manual edit of each sample pixel is possible.
+
+2. Full size preview of a loaded for recognition image and of 
+a regenerated image.
+
+Logic:
+
+1. Improved algorithm for a vertical shift detection
